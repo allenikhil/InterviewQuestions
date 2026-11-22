@@ -1,13 +1,18 @@
 package org.questions.altimatric;
 
 @FunctionalInterface
-public interface MyFunctionalInterface {
-    void myMethod();
-    default  void defaultMethod() {
-        System.out.println("This is a default method in the functional interface.");
+interface Payment {
+
+    // Exactly one abstract method
+    void pay(double amount);
+
+    // Can be inherited and overridden
+    default void printReceipt() {
+        System.out.println("Receipt generated");
     }
 
-    static void staticMethod() {
-        System.out.println("This is a static method in the functional interface.");
+    // Belongs to interface
+    static boolean validateAmount(double amount) {
+        return amount > 0;
     }
 }

@@ -1,4 +1,4 @@
-package org.questions.cognizant;
+package org.questions.altimatric;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -15,10 +15,10 @@ public class TargetSumFinder {
         Set<Integer> set=new HashSet<>();
         for(int num:list)
         {
-            int compliment=target-num;
-            if(set.contains(compliment))
+            int com=target-num;
+            if(set.contains(com))
             {
-                println("Pair found: (" + num + ", " + compliment + ")");
+                println("Pair found: (" + num + ", " + com + ")");
             }
             set.add(num);
         }

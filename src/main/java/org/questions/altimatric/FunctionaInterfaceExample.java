@@ -1,6 +1,6 @@
 package org.questions.altimatric;
 
-public class FunctionINterfaceExample {
+public class FunctionaInterfaceExample {
     static void main() {
 
         Payment payment = amount ->{
