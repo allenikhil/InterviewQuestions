@@ -1,4 +1,4 @@
-package org.questions.altimatric;
+package org.questions.altimatric.StringRelated;
 
 import java.util.LinkedHashMap;
 import java.util.stream.Collectors;

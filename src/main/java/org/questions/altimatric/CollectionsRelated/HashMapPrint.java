@@ -1,4 +1,4 @@
-package org.questions.altimatric;
+package org.questions.altimatric.CollectionsRelated;
 
 import java.util.HashMap;
 import java.util.Map;

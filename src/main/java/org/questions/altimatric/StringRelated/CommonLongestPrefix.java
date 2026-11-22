@@ -1,4 +1,4 @@
-package org.questions.altimatric;
+package org.questions.altimatric.StringRelated;
 
 public class CommonLongestPrefix {
     static void main() {
